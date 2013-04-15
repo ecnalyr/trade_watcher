@@ -34,7 +34,7 @@ Or install it yourself as:
   * every 10 seconds 
   * to see if the value has surpassed $800.00.
   
-        $ TradeKing.check_stock_every_x_seconds_for_value(:AAPL, 10, 800.54)
+        $ TradeWatcher.check_stock_every_x_seconds_for_value(:AAPL, 10, 800.54)
     
 While the stock's value is below your target value, a string will print to your console every time the stock's value is checked:
 
