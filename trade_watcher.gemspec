@@ -20,6 +20,4 @@ Gem::Specification.new do |gem|
   gem.add_dependency "market_beat"
 
   gem.add_development_dependency "rspec"
-  gem.add_development_dependency "vcr"
-  gem.add_development_dependency "fakeweb"
 end

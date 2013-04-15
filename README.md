@@ -1,6 +1,6 @@
 # TradeWatcher
 
-TODO: Write a gem description
+TradeWatcher is a gem that allows you to trigger an action if a stock's value has met or exceeded your target value.
 
 ## Installation
 
