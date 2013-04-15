@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = TradeWatcher::VERSION
   gem.authors       = ["Jason Rylance"]
   gem.email         = ["ecnalyr@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{TradeWatcher is a gem that notifies you when / if a stock's value has met or exceeded your target value.}
+  gem.summary       = %q{TradeKing.check_stock_every_x_seconds_for_value(:AAPL, 10, 800.54) Checks AAPL every 10 seconds to see if it reaches 800.54}
   gem.homepage      = "http://github.com/ecnalyr/trade_watcher"
 
   gem.files         = `git ls-files`.split($/)
